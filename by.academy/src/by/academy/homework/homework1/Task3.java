@@ -11,7 +11,7 @@ public class Task3 {
         int number = scn.nextInt();
         
         if (number > 10) { 
-        	System.out.println("Число больше 10!");
+        	System.out.println("Число больше 10! ");
         } else {
         	for (int i = 1; i <= 10; i++) {
         		System.out.println(number + " * " + i + " = " + (number * i));

@@ -34,5 +34,4 @@ public class Task1 {
 				
 			System.out.println("Стоимость покупки со скидкой: " + it_cost + " руб.");
 	}
-
 }
