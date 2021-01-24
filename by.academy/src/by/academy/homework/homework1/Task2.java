@@ -7,21 +7,21 @@ public class Task2 {
 	public static void main(String[] args) {		
 		 Scanner scn = new Scanner(System.in);
 	     
-		System.out.println("Введите тип и значение переменной: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‚РёРї Рё Р·РЅР°С‡РµРЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№: ");
         String type = scn.nextLine();
 		
         switch (type) {
         case "int": 
-       	 System.out.println("Результат: " + scn.nextInt() % 2); 
+       	 System.out.println("Р РµР·СѓР»СЊС‚Р°С‚: " + scn.nextInt() % 2); 
             break;
         case "double": 
-       	 System.out.println("Результат: " + scn.nextDouble() * 0.7); 
+       	 System.out.println("Р РµР·СѓР»СЊС‚Р°С‚: " + scn.nextDouble() * 0.7); 
        	 break;
         case "float": 
-       	 System.out.println("Результат: " + Math.pow(scn.nextFloat(), 2)); 
+       	 System.out.println("Р РµР·СѓР»СЊС‚Р°С‚: " + Math.pow(scn.nextFloat(), 2)); 
        	 break;
         case "char": 
-       	 System.out.println("Результат: " + (int) scn.nextLine().charAt(0));
+       	 System.out.println("Р РµР·СѓР»СЊС‚Р°С‚: " + (int) scn.nextLine().charAt(0));
         	 break;
         case "String": 
        	 System.out.println("Hello " + scn.nextLine());  
