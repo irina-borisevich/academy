@@ -3,7 +3,7 @@ package by.academy.lesson6;
 import java.util.regex.Pattern;
 
 public class Task6 {
- // 6. Написать regexp для email.
+ // 6. Написать regexp для email.56756757
 	
 	static Pattern p = Pattern.compile("\\w+@\\w+\\.\\w+");
 	

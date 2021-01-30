@@ -3,7 +3,7 @@ package by.academy.lesson6;
 public class Task5 {
 
 //	5. ƒана строка:
-//		" Hey      There!     How      Are you doing"   ;
+//		" Hey      There!     How      Are you doing"   ;6t7676
 //		оставить лишь 1 пробел между слов.
 
 		public static void main(String[] args) {
