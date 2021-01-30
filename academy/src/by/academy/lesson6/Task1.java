@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class Task1 {
 	
-//	1. Найти в строке не только запятые, но и другие знаки препинания. Подсчитатьujyuiu
+//	1. Найти в строке не только запятые, но и другие знаки препинания. Подсчитать
 //	общее их количество
 
 	public static void main(String[] args) {
