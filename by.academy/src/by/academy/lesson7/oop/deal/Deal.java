@@ -2,7 +2,7 @@ package by.academy.lesson7.oop.deal;
 
 	public class Deal implements DealInterface {
 
-		public final static int DEFAULT_PRODUCT_SIZE = 2; 
+		public final static int DEFAULT_PRODUCT_SIZE = 2;
 
 		private String date;
 		private Person seller;
