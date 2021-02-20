@@ -1,6 +1,6 @@
 package by.academy.homework.homework3;
 
-public class Fridge extends Product {
+public class Fridge extends Product { 
 	public static final double FRIDGE_DISCOUNT = 0.7;
 	private String color;
 

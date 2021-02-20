@@ -65,7 +65,7 @@ public class Person {
 				System.out.println("Invalid date format! Enter again");
 		} else {
 				break;
-			}
+			} 
 		}
 
 		System.out.print("Phone (+375xxxxxxxxx): ");
@@ -82,12 +82,12 @@ public class Person {
 		System.out.print("E-mail: ");
 		for (;;) {
 			email = scn.nextLine();
-			Validator val = new EmailValidator();
-			if (!val.isValid(phone)) {
-				System.out.println("This email does not exist! Enter again.");
-			} else {
+//			Validator val = new EmailValidator();
+//			if (!val.isValid(phone)) {
+//				System.out.println("This email does not exist! Enter again.");
+//			} else {
 			break;
-			}
+//			}
 		}
 	}
 }

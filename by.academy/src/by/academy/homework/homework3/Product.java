@@ -1,6 +1,6 @@
 package by.academy.homework.homework3;
 
-public abstract class Product {
+public abstract class Product { 
 	protected String title;
 	protected double price;
 	protected int quantity;

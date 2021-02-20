@@ -9,7 +9,7 @@ public class Hob extends Product {
 		super();
 	}
     
-    public Hob(String title, double price, int quantity, String type, boolean induct) {
+    public Hob(String title, double price, int quantity, String type, boolean induct) { 
 		super(title, price, quantity);
 		this.type = type;
 		this.induct = induct;

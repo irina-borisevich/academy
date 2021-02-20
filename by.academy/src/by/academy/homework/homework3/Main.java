@@ -53,7 +53,7 @@ public class Main {
 		}
 	}
 
-	public static void ExecuteDeal() {
+	public static void ExecuteDeal() { 
 		Scanner scn = new Scanner(System.in);
 
 		System.out.print("Дата сделки: ");

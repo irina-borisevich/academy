@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Task3 {
 
-	public static void main(String[] args) throws ParseException {
+	public static void main(String[] args) throws ParseException { 
 		Scanner scn = new Scanner(System.in);
 
 		System.out.println("Введите дату в формате \"dd/MM/yyyy\" либо \"dd-MM-yyyy\": ");

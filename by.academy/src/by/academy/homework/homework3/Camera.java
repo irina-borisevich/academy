@@ -2,7 +2,7 @@ package by.academy.homework.homework3;
 
 import java.util.Scanner;
 
-public class Camera extends Product {
+public class Camera extends Product { 
 		public static final double CAMERA_DISCOUNT = 0.5;
 		private int megapx;
 		private boolean digital;
