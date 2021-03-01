@@ -34,7 +34,7 @@ public class MatrixIterator<T> implements Iterator<T> {
 			T element = matrix[row][col];
 			position++;
 			col++;
-			while (row < matrix.length && col >= matrix[row].length) { // пропускаем пустые строки
+			while (row < matrix.length && col >= matrix[row].length) { // пропускаем пустые строки 
 				col = 0;
 				row++;
 			}

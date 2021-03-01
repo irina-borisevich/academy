@@ -8,7 +8,7 @@ public class Main {
 
 		Iterator<Integer> iterator = new MatrixIterator<>(matrix);
 
-		while (iterator.hasNext()) {
+		while (iterator.hasNext()) { 
 			System.out.println(iterator.next());
 		}
 	}
