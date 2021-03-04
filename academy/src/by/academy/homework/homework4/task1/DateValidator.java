@@ -1,4 +1,4 @@
-package academy.bin.homework4.task1;
+package by.academy.homework.homework4.task1;
 
 import java.util.regex.Pattern;
 

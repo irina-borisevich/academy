@@ -1,4 +1,4 @@
-package academy.bin.homework4.task1;
+package by.academy.homework.homework4.task1;
 
 public enum Week {
 	MONDAY("Понедельник"), TUESDAY("Вторник"), WEDNESDAY("Среда"), THURSDAY("Четверг"), FRIDAY("Пятница"),
