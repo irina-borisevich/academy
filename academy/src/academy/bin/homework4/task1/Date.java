@@ -3,7 +3,7 @@ package academy.bin.homework4.task1;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 
-public class Date { 
+public class Date {
 	protected String sDate;
 	protected LocalDate date;
 
