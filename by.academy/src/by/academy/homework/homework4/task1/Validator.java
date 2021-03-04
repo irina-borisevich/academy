@@ -2,7 +2,7 @@ package by.academy.homework.homework4.task1;
 
 import java.util.regex.Pattern;
 
-public interface Validator {
+public interface Validator { 
 
 	Pattern getPattern();
 
