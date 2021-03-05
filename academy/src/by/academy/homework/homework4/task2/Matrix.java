@@ -12,21 +12,21 @@ public class Matrix<T> {
 	}
 
 	public void get(int i) {
-		System.out.println("Индекс элемента массива: " + array[i]);
+		System.out.println("РРЅРґРµРєСЃ СЌР»РµРјРµРЅС‚Р° РјР°СЃСЃРёРІР°: " + array[i]);
 	}
 
 	public void getFirst() {
-		System.out.println("Первый элемент: " + array[0]);
+		System.out.println("РџРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚: " + array[0]);
 	}
 
 	public void getLast() {
-		System.out.println("Последний элемент: " + array[array.length - 1]);
+		System.out.println("РџРѕСЃР»РµРґРЅРёР№ СЌР»РµРјРµРЅС‚: " + array[array.length - 1]);
 
 		int i = array.length - 1;
 		while ((array[i] == null) && (i >= 1)) {
 			i--;
 		}
-		System.out.println("Индекс последнего заполненного элемента: " + i);
+		System.out.println("РРЅРґРµРєСЃ РїРѕСЃР»РµРґРЅРµРіРѕ Р·Р°РїРѕР»РЅРµРЅРЅРѕРіРѕ СЌР»РµРјРµРЅС‚Р°: " + i);
 	}
 
 	public void add(T obj) {
@@ -35,7 +35,7 @@ public class Matrix<T> {
 				array[i] = obj;
 				break;
 			} else {
-				if (i == (array.length - 1)) { // нет пустых элементов
+				if (i == (array.length - 1)) { // РЅРµС‚ РїСѓСЃС‚С‹С… СЌР»РµРјРµРЅС‚РѕРІ
 					expandArray();
 					array[array.length - 1] = obj;
 					System.out.println(array.length);
@@ -53,12 +53,12 @@ public class Matrix<T> {
 	}
 
 	public void remove(int i) {
-//  удаление элемента по индексу 
+//  СѓРґР°Р»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р° РїРѕ РёРЅРґРµРєСЃСѓ 
 		System.out.println("remove(int i) - Working on it!!!");
 	}
 
 	public void remove(T obj) {
-//	удаление элемента по значению 
+//	СѓРґР°Р»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р° РїРѕ Р·РЅР°С‡РµРЅРёСЋ 
 		System.out.println("remove(T obj) - Working on it!!!");
 	}
 }
