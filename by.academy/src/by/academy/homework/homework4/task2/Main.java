@@ -17,7 +17,7 @@ public class Main {
 
 		Matrix<Integer> intMatrix = new Matrix<>(intArray);
 
-		intMatrix.get(5);
+		intMatrix.get(5); 
 		intMatrix.getFirst();
 		intMatrix.getLast();
 		System.out.println("Длина массива: " + intMatrix.length);
