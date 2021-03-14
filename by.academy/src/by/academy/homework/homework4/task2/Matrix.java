@@ -16,26 +16,26 @@ public class Matrix<T> {
 	}
 
 	public void get(int i) {
-		System.out.println("Элемент массива c индексом " + i + ": " + array[i]);
+		System.out.println("Р­Р»РµРјРµРЅС‚ РјР°СЃСЃРёРІР° c РёРЅРґРµРєСЃРѕРј " + i + ": " + array[i]);
 	}
 
 	public void getFirst() {
-		System.out.println("Первый элемент: " + array[0]);
+		System.out.println("РџРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚: " + array[0]);
 	}
 
 	public void getLast() {
-		System.out.println("Последний элемент: " + array[array.length - 1]);
+		System.out.println("РџРѕСЃР»РµРґРЅРёР№ СЌР»РµРјРµРЅС‚: " + array[array.length - 1]);
 	}
 
 	public void lastNotEmpty() {
 		for (int i = array.length - 1; i >= 0; i--) {
 			if (array[i] != null) {
-				System.out.println("Индекс последнего заполненного элемента: " + i);
+				System.out.println("РРЅРґРµРєСЃ РїРѕСЃР»РµРґРЅРµРіРѕ Р·Р°РїРѕР»РЅРµРЅРЅРѕРіРѕ СЌР»РµРјРµРЅС‚Р°: " + i);
 				return;
 			}
 
 			if (i == 0) {
-				System.out.println("Нет заполненных элементов!");
+				System.out.println("РќРµС‚ Р·Р°РїРѕР»РЅРµРЅРЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ!");
 			}
 		}
 	}
@@ -47,7 +47,7 @@ public class Matrix<T> {
 				return;
 			}
 
-			if (i == (array.length - 1)) { // нет пустых элементов
+			if (i == (array.length - 1)) { // РЅРµС‚ РїСѓСЃС‚С‹С… СЌР»РµРјРµРЅС‚РѕРІ
 				expandArray();
 			}
 		}

@@ -20,20 +20,20 @@ public class Main {
 		intMatrix.get(5);
 		intMatrix.getFirst();
 		intMatrix.getLast();
-		System.out.println("Длина массива: " + intMatrix.length);
+		System.out.println("Р”Р»РёРЅР° РјР°СЃСЃРёРІР°: " + intMatrix.length);
 		intMatrix.lastNotEmpty();
 
 		intMatrix.add(4);
 		intMatrix.add(30);
-		System.out.println("Добавление элементов в массив:");
+		System.out.println("Р”РѕР±Р°РІР»РµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ РІ РјР°СЃСЃРёРІ:");
 		System.out.println(Arrays.toString(intMatrix.getArray()));
 
-		System.out.println("Удаление элементов по индексу:");
+		System.out.println("Р”РѕР±Р°РІР»РµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ РІ РјР°СЃСЃРёРІ:");
 		intMatrix.remove(20);
 		intMatrix.remove(4);
 		System.out.println(Arrays.toString(intMatrix.getArray()));
 		
-		System.out.println("Удаление элементов по значению:");
+		System.out.println("РЈРґР°Р»РµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ РїРѕ РёРЅРґРµРєСЃСѓ:");
 		intMatrix.removeObj(4);
 		System.out.println(Arrays.toString(intMatrix.getArray()));
 	}
