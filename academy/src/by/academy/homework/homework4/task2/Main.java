@@ -2,7 +2,7 @@ package by.academy.homework.homework4.task2;
 
 import java.util.Arrays;
 
-public class Main {
+public class Main { 
 
 	public static void main(String[] args) {
 		Integer[] intArray = new Integer[16];

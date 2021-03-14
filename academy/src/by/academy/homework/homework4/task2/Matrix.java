@@ -2,7 +2,8 @@ package by.academy.homework.homework4.task2;
 
 import java.util.Arrays;
 
-public class Matrix<T> {
+public class Matrix<T> { 
+	
 	private T[] array;
 	int length;
 
