@@ -12,7 +12,5 @@ public class TestMathPow extends Assert {
 		assertTrue(Math.pow(5, 1) == 2);
 		assertTrue(Math.pow(2, 2) == 4);
 		assertTrue(Math.pow(2, 3) == 8);
-		assertTrue(Math.pow(2, 4) == 16);
-		assertTrue(Math.pow(2, 5) == 32);
 	}
 }
