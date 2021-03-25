@@ -6,7 +6,7 @@ import org.junit.runners.model.InitializationError;
 
 public class TestRunner extends BlockJUnit4ClassRunner {
 
-	private CalculatorTestListener ourListener; 
+	private CalculatorTestListener ourListener;
 
 	public TestRunner(Class<CalculatorTestListener> clz) throws InitializationError {
 		super(clz);
